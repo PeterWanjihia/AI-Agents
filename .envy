@@ -1,0 +1,17 @@
+# Choose which provider you want to use by default
+PROVIDER=openai
+
+# OpenAI
+OPENAI_API_KEY=PASTE_YOUR_OPENAI_KEY_HERE
+
+# Gemini (Google)
+GEMINI_API_KEY=PASTE_YOUR_GEMINI_KEY_HERE
+
+# Default model names (you can change these later)
+OPENAI_MODEL=gpt-4o-mini
+GEMINI_MODEL=gemini-1.5-flash
+
+# Optional: safety + cost control
+TEMPERATURE=0
+MAX_STEPS=12
+
